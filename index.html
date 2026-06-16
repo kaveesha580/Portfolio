@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader-wrapper" id="loaderWrapper">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="page-content" id="pageContent">
+      <header>
+        <nav>
+          <div class="logo">Kaveesha</div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <button class="theme-toggle" id="themeToggleBtn">
+            <span class="icon" id="themeIcon">🌙</span>
+            <span id="themeText">Dark Mode</span>
+          </button>
+        </nav>
+      </header>
+
+      <main>
+        <!-- Hero -->
+        <div id="home" class="hero-wrapper">
+          <div class="hero-image-card">
+            <img src="my.jpeg" alt="Profile"/>
+          </div>
+          <div class="hero-text-card">
+            <section class="hero" style="padding: 0">
+              <h1>Hi, I'm <span class="highlight">Kaveesha</span></h1>
+              <div class="typing-container">
+                <span class="typed-text" id="typedText"></span>
+              </div>
+              <br>
+              <a href="#projects" class="btn">View My Work →</a>
+            </section>
+          </div>
+        </div>
+
+        <!-- About -->
+        <section id="about">
+          <div class="about-content">
+            <div class="about-text">
+              <h2>About Me</h2>
+              <p>
+                I'm a passionate front-end web developer with experience
+                building responsive and user-friendly websites. I love turning
+                ideas into reality using HTML, CSS, and JavaScript.
+              </p>
+              <p>
+                Currently, I'm exploring React and modern web technologies. I
+                believe in clean code, great design, and continuous learning.
+              </p>
+              <a href="cv.pdf" class="btn" style="background: #333; color: #ccff33"
+                >Download Resume</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+          <h2>My Skills</h2>
+          <div class="skills-container">
+            <div class="skills-category">
+              <h3>💻 Technical Skills</h3>
+              <div class="tech-grid">
+                <div class="tech-item">
+                  <span class="tech-name">Java</span
+                  ><span class="tech-level">Intermediate</span>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">JavaScript</span
+                  ><span class="tech-level">Intermediate</span>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">HTML</span
+                  ><span class="tech-level">Advanced</span>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">CSS</span
+                  ><span class="tech-level">Advanced</span>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">React</span
+                  ><span class="tech-level">Beginner</span>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">Git & GitHub</span
+                  ><span class="tech-level">Intermediate</span>
+                </div>
+                <div class="tech-item">
+                  <span class="tech-name">MySQL</span
+                  ><span class="tech-level">Basic</span>
+                </div>
+                
+              </div>
+            </div>
+            <div class="skills-category">
+              <h3>🤝 Professional Skills</h3>
+              <div class="skills-list">
+                <span class="skill-tag">Teamwork</span>
+                <span class="skill-tag">Communication</span>
+                <span class="skill-tag">Time Management</span>
+                <span class="skill-tag">Fast Learner</span>
+                <span class="skill-tag">Attention to Detail</span>
+                <span class="skill-tag">Problem Solving</span>
+              </div>
+            </div>
+            <div class="skills-category">
+              <h3>🛠️ Tools & Software</h3>
+              <div class="skills-list">
+                <span class="skill-tag">Git & GitHub</span>
+                <span class="skill-tag">VS Code</span>
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Postman</span>
+                <span class="skill-tag">MySQL Workbench</span>
+                <span class="skill-tag">Chrome DevTools</span>
+              </div>
+            </div>
+            <div class="skills-category">
+              <h3>📊 Microsoft Office</h3>
+              <div class="skills-list">
+                <span class="skill-tag">Word</span>
+                <span class="skill-tag">Excel</span>
+                <span class="skill-tag">PowerPoint</span>
+                <span class="skill-tag">Outlook</span>
+                <span class="skill-tag">Teams</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+          <h2>Featured Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img
+                src="https://placehold.co/400x220/1f3a1a/ccff66?text=E-commerce+Landing"
+                alt="Project"
+              />
+              <div class="project-info">
+                <div class="project-status status-completed">✅ Completed</div>
+                <h3>E-commerce Landing Page</h3>
+                <div class="project-tech">
+                  <span class="tech-stack">HTML5</span
+                  ><span class="tech-stack">CSS3</span
+                  ><span class="tech-stack">JS</span>
+                </div>
+                <p>
+                  Modern product showcase with responsive grid and hover
+                  effects.
+                </p>
+                <a href="#" class="github-link">🔗 View on GitHub</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                src="https://placehold.co/400x220/0a2a2a/ffb347?text=Weather+App"
+                alt="Project"
+              />
+              <div class="project-info">
+                <div class="project-status status-progress">🔄 In Progress</div>
+                <h3>Weather App</h3>
+                <div class="project-tech">
+                  <span class="tech-stack">JS</span
+                  ><span class="tech-stack">API</span
+                  ><span class="tech-stack">CSS</span>
+                </div>
+                <p>Real-time weather data using OpenWeather API.</p>
+                <a href="#" class="github-link">🔗 View on GitHub</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                src="https://placehold.co/400x220/2c2c2c/59ff00?text=Portfolio"
+                alt="Project"
+              />
+              <div class="project-info">
+                <div class="project-status status-completed">✅ Completed</div>
+                <h3>Portfolio Website</h3>
+                <div class="project-tech">
+                  <span class="tech-stack">HTML5</span
+                  ><span class="tech-stack">CSS3</span
+                  ><span class="tech-stack">JS</span>
+                </div>
+                <p>This very portfolio with dark/light mode toggle!</p>
+                <a href="#" class="github-link">🔗 View on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education Timeline -->
+        <section id="education" class="education-section">
+          <h2 class="section-title">Education Timeline</h2>
+          <div class="timeline-container" id="timelineRoot">
+            <div class="timeline-line"></div>
+            <div class="timeline-progress-fill" id="timelineProgressFill"></div>
+            <div class="timeline-item">
+              <div class="timeline-dot dot-green"></div>
+              <div class="timeline-content">
+                <div class="result-badge">🎓 8A 1S</div>
+                <span class="timeline-year year-green">2020</span>
+                <h2>G.C.E. Ordinary Level (O/L)</h2>
+                <h3>9 Subjects</h3>
+                <p>Successfully completed with excellent results.</p>
+                <div class="result-details">
+                  <div class="subject-grid">
+                    <div class="subject-item">Maths A</div>
+                    <div class="subject-item">Science A</div>
+                    <div class="subject-item">ICT A</div>
+                    <div class="subject-item">English S</div>
+                    <div class="subject-item">Sinhala A</div>
+                    <div class="subject-item">History A</div>
+                    <div class="subject-item">Dancing A</div>
+                    <div class="subject-item">Religion A</div>
+                    <div class="subject-item">Commerce A</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot dot-orange"></div>
+              <div class="timeline-content">
+                <div class="result-badge">📊 2023</div>
+                <span class="timeline-year year-orange">2023</span>
+                <h2>G.C.E. Advanced Level (A/L)</h2>
+                <h3>Physical Science Stream</h3>
+                <p>Combined Maths - B | ICT - C | Physics - C</p>
+                <div class="result-details">
+                  <div class="subject-grid">
+                    <div class="subject-item">Maths B</div>
+                    <div class="subject-item">ICT C</div>
+                    <div class="subject-item">Physics C</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot dot-green"></div>
+              <div class="timeline-content">
+                <div class="result-badge">📊 GPA:2.96</div>
+                <span class="timeline-year year-green">2026 - Present</span>
+                <h2>BSc in Information Technology</h2>
+                <h3>University of Sri Jayewardenepura</h3>
+                <p>
+                  Currently pursuing with focus on Web Development, Programming,
+                  and Software Engineering.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+          <h2>Get In Touch</h2>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  required
+                  id="nameInput"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  required
+                  id="emailInput"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                  id="msgInput"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Send Message</button>
+              <p
+                id="formFeedback"
+                style="margin-top: 12px; font-size: 0.85rem; text-align: center"
+              ></p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>@2026 H.A.K.Dilshan</p>
+        
+      </footer>
+    </div>
+  </body>
+</html>
