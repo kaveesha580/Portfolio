@@ -7,7 +7,7 @@ window.addEventListener('load', function() {
     });
 
     // Typing Animation
-    const words = ["Web Developer", "Designer", "Creator"];
+    const words = ["University Student🎓","Videographer🎥", "Photographer📸", "Creator🖌️"];
     const typedTextElement = document.getElementById('typedText');
     let wordIndex = 0, charIndex = 0, isDeleting = false, typingSpeed = 100;
     
